@@ -6,7 +6,7 @@
 }
 
 .label {
-  color: #7c7c7c;
+  color: white;
   font-weight: 500;
 }
 
@@ -16,8 +16,9 @@
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  background-color: #9cc9e0;
+  background-color: #458888;
   border: 1px solid #979696;
+  color: white;
 }
 
 .elem:first-child {

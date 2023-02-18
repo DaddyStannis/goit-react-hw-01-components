@@ -1,16 +1,16 @@
 .table {
   margin-top: 60px;
   width: 100%;
+  box-shadow: 2px 2px 16px #bebdbd;
 }
 
 .table-head {
-  background-color: rgb(60, 192, 192);
+  background-color: #458888;
   text-align: left;
 }
 
 .table-row {
   width: 100%;
-  border: 1px solid gray;
 }
 
 .table-title {
@@ -18,5 +18,5 @@
   font-size: 18px;
   font-weight: 600;
   color: white;
-  border: 1px solid gray;
+  border: 1px solid white;
 }

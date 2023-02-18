@@ -10,9 +10,9 @@
 }
 
 .status.online {
-  color: green;
+  color: #458888;
 }
 
 .status.offline {
-  color: red;
+  color: #c02c2c;
 }
