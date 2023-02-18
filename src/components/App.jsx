@@ -6,8 +6,8 @@ import user from './data/user.json';
 import statistics from './data/statistics.json';
 import friends from './data/friends.json';
 import transactions from './data/transactions.json';
-import reset from './shared/styles/reset.css';
-import common from './shared/styles/common.css';
+import './shared/styles/reset.css';
+import './shared/styles/common.css';
 
 export const App = () => {
   return (
