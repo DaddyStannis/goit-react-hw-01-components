@@ -1,13 +1,13 @@
-import Profile from 'modules/Profile/Profile';
-import Statistics from 'modules/Statistics/Statistics';
-import FriendList from 'modules/FriendList/FriendList';
-import TransactionHistory from 'modules/TransactionHistory/TransactionHistory';
-import user from 'data/user.json';
-import statistics from 'data/statistics.json';
-import friends from './data/friends.json';
-import transactions from './data/transactions.json';
-import reset from './shared/styles/reset.css';
-import common from './shared/styles/common.css';
+import Profile from './components/modules/Profile/Profile';
+import Statistics from './components/modules/Statistics/Statistics';
+import FriendList from './components/modules/FriendList/FriendList';
+import TransactionHistory from './components/modules/TransactionHistory/TransactionHistory';
+import user from './components/data/user.json';
+import statistics from './components/data/statistics.json';
+import friends from './components/data/friends.json';
+import transactions from './components/data/transactions.json';
+import reset from './components/shared/styles/reset.css';
+import common from './components/shared/styles/common.css';
 
 export const App = () => {
   return (
