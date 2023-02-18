@@ -11,6 +11,7 @@ const Profile = ({ avatar, username, tag, location, stats }) => {
           src={avatar}
           width="150"
           height="150"
+          alt={username}
         ></img>
         <h2 className={styles.name}>{username}</h2>
         <p className={styles.tag}>@{tag}</p>

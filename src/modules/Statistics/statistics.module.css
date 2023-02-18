@@ -1,4 +1,5 @@
 .statistics {
+  margin-top: 60px;
   display: inline-flex;
   flex-direction: column;
   background-color: #458888;
