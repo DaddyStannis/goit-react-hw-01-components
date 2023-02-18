@@ -1,0 +1,22 @@
+.table {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.table-head {
+  background-color: rgb(60, 192, 192);
+  text-align: left;
+}
+
+.table-row {
+  width: 100%;
+  border: 1px solid gray;
+}
+
+.table-title {
+  padding: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  border: 1px solid gray;
+}

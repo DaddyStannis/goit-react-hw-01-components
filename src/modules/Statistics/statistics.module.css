@@ -1,0 +1,23 @@
+.statistics {
+  display: inline-flex;
+  flex-direction: column;
+  background-color: #458888;
+  box-shadow: 2px 2px 16px #bebdbd;
+}
+
+.stat-list {
+  display: grid;
+  justify-content: center;
+  grid-auto-flow: column;
+}
+
+.title {
+  flex-grow: 11;
+  padding: 38px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  font-size: 21px;
+  color: rgb(156, 161, 161);
+  background-color: white;
+}

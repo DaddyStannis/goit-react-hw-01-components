@@ -1,0 +1,8 @@
+.table-row:nth-child(even) {
+  background-color: rgb(240, 240, 240);
+}
+
+.table-field {
+  border: 1px solid gray;
+  padding: 12px;
+}

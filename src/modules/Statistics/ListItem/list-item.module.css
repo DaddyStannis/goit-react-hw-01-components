@@ -1,0 +1,20 @@
+.item {
+  min-width: 100px;
+  padding: 24px;
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  border: 1px solid white;
+}
+
+.item:not(:last-child) {
+  border-right: none;
+}
+
+.label,
+.percentage {
+  text-align: center;
+}
