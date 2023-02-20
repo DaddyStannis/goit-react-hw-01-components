@@ -2,8 +2,8 @@ import styles from './statistics.module.css';
 import ListItem from './ListItem/ListItem';
 import PropTypes from 'prop-types';
 
-const Statistics = ({ title, objects }) => {
-  const items = objects.map(({ id, ...props }) => {
+const Statistics = ({ title, statistics }) => {
+  const items = statistics.map(({ id, ...props }) => {
     return <ListItem key={id} {...props} />;
   });
 
@@ -18,5 +18,11 @@ const Statistics = ({ title, objects }) => {
 export default Statistics;
 
 Statistics.propTypes = {
-  objects: PropTypes.arrayOf(PropTypes.shape),
+  title: PropTypes.string,
+  statistics: PropTypes.arrayOf(
+    PropTypes.shape({
+      label: PropTypes.string,
+      percentage: PropTypes.number,
+    })
+  ),
 };

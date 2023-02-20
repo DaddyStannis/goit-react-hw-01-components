@@ -12,5 +12,11 @@ const FriendList = ({ friends }) => {
 export default FriendList;
 
 FriendList.propTypes = {
-  friends: PropTypes.arrayOf(PropTypes.object),
+  friends: PropTypes.arrayOf(
+    PropTypes.shape({
+      avatar: PropTypes.string,
+      name: PropTypes.string,
+      isOnline: PropTypes.bool,
+    })
+  ),
 };
