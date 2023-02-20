@@ -21,14 +21,6 @@
   color: white;
 }
 
-.elem:first-child {
-  border-bottom-left-radius: 6px;
-}
-
-.elem:last-child {
-  border-bottom-right-radius: 6px;
-}
-
 .elem:not(:last-child) {
   border-right: none;
 }
